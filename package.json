@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal website for John Conwell",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conwe007/Personal-Website.git"
+  },
+  "author": "John Conwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conwe007/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/conwe007/Personal-Website#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*"
+  }
+}
