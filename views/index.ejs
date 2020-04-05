@@ -1,35 +1,46 @@
 <%- include ('partials/header'); -%>
-    <div>
-        <img src="images/headshot.jpg" alt="Professional Headshot" />
-        <h1><%= title %></h1>
-        <h2>
+    <div class="index-header">
+        <img src="images/headshot.jpg" class="index-header-headshot" alt="Professional Headshot" />
+        <h1 class="index-header-title"><%= title %></h1>
+        <h2 class="index-header-description">
             Bachelor of Science in Electrical Engineering<br>
             Minor in Computer Science
         </h2>
     </div>
-    <div>
-        <h3>About</h3>
-        <p>
-            I am a recent graduate looking for full time employment in an electrical 
-            engineering field. I have extensive experience in circuit design and simulation, 
-            experience with various kinds of software development, and excellent 
-            communication and documentation skills. I have an strong interest in software 
-            development, as well as the integration between software and hardware.
-        </p>
-    </div>
-    <div>
-        <h3>Contact</h3>
-        <a href="https://github.com/conwe007">
-            <i class="fab fa-github-square"></i>
-            GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/john-conwell-129841117/">
-            <i class="fab fa-linkedin"></i>
-            Linkedin
-        </a>
-        <a href="mailto:conwe007@umn.edu">
-            <i class="fas fa-envelope-square"></i>
-            Email
-        </a>
+    <div class="flex-container">
+        <div class="index-about">
+            <h3>About</h3>
+            <p>
+                I am a recent graduate looking for full time employment in an electrical 
+                engineering field. I have extensive experience in circuit design and simulation, 
+                experience with various kinds of software development, and excellent 
+                communication and documentation skills. I have an strong interest in software 
+                development, as well as the integration between software and hardware.
+            </p>
+        </div>
+        <div class="index-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li>
+                    <a href="https://github.com/conwe007">
+                        <i class="fab fa-github-square"></i>
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/john-conwell-129841117/">
+                        <i class="fab fa-linkedin"></i>
+                        Linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:conwe007@umn.edu">
+                        <i class="fas fa-envelope-square"></i>
+                        Email
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
     </div>
 <%- include ('partials/footer'); -%>

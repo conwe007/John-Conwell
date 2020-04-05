@@ -1,6 +1,105 @@
-
-
+/* body styling */
 body {
-    background: gray;
+    margin: 0px;
+}
+
+/* navigation bar styling */
+.header-navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.header-navigation a:link {
     color: black;
+    padding: 20px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.header-navigation a:visited {
+    color: black;
+    padding: 20px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    color: #298c9e;
+    padding: 20px;
+    background-color: #f0fefe;
+    text-decoration: none;
+}
+
+.header-navigation-projects {
+    float: right;
+}
+
+/* index page header styling */
+.index-header {
+    max-width: none;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    background-color: #f0f5f5;
+}
+
+.index-header-headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.index-header-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    font-weight: 700;
+    margin: 10px;
+    color: #113f47;
+}
+
+.index-header-description {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px;
+    color: #a2aeb0;
+}
+
+/* flex container for about and contact*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* index page about styling */
+.index-about {
+    max-width: 500px;
+    font-family: 'Merriweather', serif;
+}
+
+.index-about-title {
+
+}
+
+/* index page contact styling */
+.index-contact {
+    max-width: 200px;
+    font-family: 'Merriweather', serif;
+}
+
+.box-model {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
 }
