@@ -14,25 +14,24 @@ body {
     letter-spacing: 3px;
 }
 
+.header-navigation a {
+    padding: 20px;
+    text-decoration: none;
+}
+
 .header-navigation a:link {
     color: black;
-    padding: 20px;
     background-color: white;
-    text-decoration: none;
 }
 
 .header-navigation a:visited {
     color: black;
-    padding: 20px;
     background-color: white;
-    text-decoration: none;
 }
 
 .header-navigation a:hover {
     color: #298c9e;
-    padding: 20px;
     background-color: #f0fefe;
-    text-decoration: none;
 }
 
 .header-navigation-projects {
@@ -59,7 +58,6 @@ body {
 
 .index-header-title {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     font-size: 56px;
     font-weight: 700;
     margin: 10px;
@@ -75,31 +73,161 @@ body {
 }
 
 /* flex container for about and contact*/
-.flex-container {
+.flex-container-about-contact {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 /* index page about styling */
 .index-about {
     max-width: 500px;
-    font-family: 'Merriweather', serif;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .index-about-title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #404040;
+}
 
+.index-about-content {
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #636363;
 }
 
 /* index page contact styling */
 .index-contact {
-    max-width: 200px;
-    font-family: 'Merriweather', serif;
+    max-width: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.box-model {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+.index-contact-title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.index-contact ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.index-contact li {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.index-contact a {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.index-contact a:link {
+    color: #202020;
+}
+
+.index-contact a:visited {
+    color: #202020;
+}
+
+.index-contact a:hover {
+    color: #4a4b8a;
+}
+
+/* project header styling */
+.projects-header {
+    max-width: none;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 30px;
+    padding-left: 30px;
+    margin: 0px;
+    text-align: center;
+    background-color: #f0f5f5;
+}
+
+.projects-header-title {
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #113f47;
+}
+
+/* flex container for projects*/
+.flex-container-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+/* project image styling */
+.projects-image {
+    max-width: 180px;
+    margin-right: 25px;
+    padding: 30px;
+    padding-left: 30px;
+}
+
+.projects-image img {
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+    display: block;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+/* project description styling */
+.projects-description {
+    max-width: 500px;
+    margin-left: 25px;
+}
+
+.projects-description a {
+    text-decoration: none;
+}
+
+.projects-description a:link {
+    color: #76a9cf;
+}
+
+.projects-description a:visited {
+    color: #76a9cf;
+}
+
+.projects-description a:hover {
+    color: #4a4b8a;
+}
+
+.projects-description-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #113f47;
+}
+
+.projects-description p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: #636363;
 }
