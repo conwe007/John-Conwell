@@ -8,6 +8,13 @@ router.get('/', (req, res) => {
     });
 });
 
+// get experiences
+router.get('/experiences', (req, res) => {
+    res.render('experiences', {
+        title: 'Experiences'
+    });
+});
+
 // get projects
 router.get('/projects', (req, res) => {
     res.render('projects', {

@@ -1,0 +1,96 @@
+<%- include ('partials/header') %>
+    <div class="tabs-header">
+        <h1 class="tabs-header-title"><%= title %></h1>
+    </div>
+    <div class="flex-container-tabs">
+        <div class="tabs-image">
+            <a href="http://www.hondaresearch.com/">
+                <img src="images/thumbnail_honda.png" alt="Honda Thumbnail" />
+            </a>
+        </div>
+        <div class="tabs-description">
+            <h3 class="tabs-description-title">Honda R&D Americas</h3>
+            <h4 class="tabs-description-position">Electrical Engineering Intern</h4>
+            <h4 class="tabs-description-position-bottom">May 2019 - August 2019</h4>
+            
+            <button class="tabs-collapsible">MOST-CAN Gateway Database Design</button>
+            <div class="tabs-collapsible-content">
+                <p>Designed a database to hold MOST and CAN messages and mappings between them, developed methods to populate the database from excel sheets/CSVs, implemented functionality to automatically generate MCG variations between different vehicle specs/destinations</p>
+            </div>
+            
+            <button class="tabs-collapsible">MOST-CAN Gateway Debugging</button>
+            <div class="tabs-collapsible-content">
+                <p>Tested gateway mappings using NUnit, on testbenches and vehicles</p>
+            </div>
+            
+            <button class="tabs-collapsible">Infotainment Development Flow</button>
+            <div class="tabs-collapsible-content">
+                <p>Created a presentation highlighting the benefits of a new infotainment development flow by dividing into important time periods and subject matters to give executive decision makers easily digestible information</p>
+            </div>
+            
+            <button class="tabs-collapsible">GPS Error Debugging</button>
+            <div class="tabs-collapsible-content">
+                <p>Identified and fixed errors in an excel macro that measured GPS performance of current vehicles against a test vehicle</p>
+            </div>
+            
+            <button class="tabs-collapsible">Infotainment Testing </button>
+            <div class="tabs-collapsible-content">
+                <p>Tested infotainment systems on multiple vehicles according to predefined test cases, many of which were specific to infotainment “benches”, which had to be interpreted in a mass production vehicle sense</p>
+            </div>
+            
+            <button class="tabs-collapsible">Project Resource Management </button>
+            <div class="tabs-collapsible-content">
+                <p>Transferred vehicle development schedule information in various formats (excel, PowerPoint, image, etc.) into a single and easily navigable excel sheet</p>
+            </div>
+            
+            <button class="tabs-collapsible">X-Check</button>
+            <div class="tabs-collapsible-content">
+                <p>Assisted in the conduction of a cross check between Honda infotainment function PICs (Person in Charge) and suppliers</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container-tabs">
+        <div class="tabs-image">
+            <a href="https://www.thetorocompany.com/company">
+                <img src="images/thumbnail_toro.png" alt="Honda Thumbnail" />
+            </a>
+        </div>
+        <div class="tabs-description">
+            <h3 class="tabs-description-title">The Toro Company</h3>
+            <h4 class="tabs-description-position">Electrical Engineering Co-op</h4>
+            <h4 class="tabs-description-position-bottom">January 2018 - August 2018</h4>
+            
+            <button class="tabs-collapsible">Monte Carlo Circuit Analysis </button>
+            <div class="tabs-collapsible-content">
+                <p>Used PSpice to model and simulate circuits; determined circuit tolerances, identified relative sources of error within the circuits</p>
+            </div>
+
+            <button class="tabs-collapsible">Wireless Recharging Battery Circuit </button>
+            <div class="tabs-collapsible-content">
+                <p>Identified and corrected errors in a preliminary circuit design, worked with component vendors to choose parts, finalized design in Cadence, performed debugging on physical circuit</p>
+            </div>
+            
+            <button class="tabs-collapsible">Capacitive Touchscreen Configuration </button>
+            <div class="tabs-collapsible-content">
+                <p>Used Arduino to develop configurator to interface with CapSense chip via I2C, created a parsing script in Python to generate a c-compatible matrix from binary configuration file</p>
+            </div>
+            
+            <button class="tabs-collapsible">Software Testing </button>
+            <div class="tabs-collapsible-content">
+                <p>Tested and performed CAN analysis on new oscilloscope emulation software, identified software bugs and steps to reproduce them</p>
+            </div>
+            
+            <button class="tabs-collapsible">Harness Creation/Wiring </button>
+            <div class="tabs-collapsible-content">
+                <p>Referred to schematic to design harnesses for use in testing/programming controllers, rewired incorrectly manufactured harnesses</p>
+            </div>
+            
+            <button class="tabs-collapsible">Warranty Analysis </button>
+            <div class="tabs-collapsible-content">
+                <p>Used oscilloscope to set triggers and measure inrush/outrush through components, identified failed components in complex PCBs by referring to the schematic</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/collapsible.js"></script>
+<%- include ('partials/footer'); -%>

@@ -34,7 +34,7 @@ body {
     background-color: #f0fefe;
 }
 
-.header-navigation-projects {
+.header-navigation-tabs {
     float: right;
 }
 
@@ -152,8 +152,8 @@ body {
     color: #4a4b8a;
 }
 
-/* project header styling */
-.projects-header {
+/* tabs header styling */
+.tabs-header {
     max-width: none;
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
@@ -164,7 +164,7 @@ body {
     background-color: #f0f5f5;
 }
 
-.projects-header-title {
+.tabs-header-title {
     padding-left: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -172,8 +172,8 @@ body {
     color: #113f47;
 }
 
-/* flex container for projects*/
-.flex-container-projects {
+/* flex container for tabs*/
+.flex-container-tabs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -181,15 +181,15 @@ body {
     border-bottom: 1px solid #d6d6d6;
 }
 
-/* project image styling */
-.projects-image {
+/* tabs image styling */
+.tabs-image {
     max-width: 180px;
     margin-right: 25px;
     padding: 30px;
     padding-left: 30px;
 }
 
-.projects-image img {
+.tabs-image img {
     max-width: 100%;
     min-width: 50%;
     height: auto;
@@ -198,36 +198,93 @@ body {
     margin-right: 0px;
 }
 
-/* project description styling */
-.projects-description {
+/* tabs description styling */
+.tabs-description {
     max-width: 500px;
     margin-left: 25px;
+    padding-bottom: 10px;
 }
 
-.projects-description a {
+.tabs-description a {
     text-decoration: none;
 }
 
-.projects-description a:link {
+.tabs-description a:link {
     color: #76a9cf;
 }
 
-.projects-description a:visited {
+.tabs-description a:visited {
     color: #76a9cf;
 }
 
-.projects-description a:hover {
+.tabs-description a:hover {
     color: #4a4b8a;
 }
 
-.projects-description-title {
+.tabs-description-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #113f47;
 }
 
-.projects-description p {
+.tabs-description-position {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #113f47;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.tabs-description-position-bottom {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #113f47;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* collapsible section of experiences */
+.tabs-collapsible {
+    background-color: #f0f5f5;
+    color: #113f47;
+    padding: 6px;
+    margin: 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+.active, .tabs-collapsible:hover {
+    background-color: #c0c5c5;
+    color: #0d3030;
+}
+
+.tabs-collapsible-content {
+    padding-left: 12px;
+    padding-right: 12px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #eeeeee;
+    
+}
+
+.tabs-collapsible-content p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #434343;
+}
+
+.tabs-description-content {
     font-family: "Merriweather", serif;
     font-size: 20px;
     color: #636363;
