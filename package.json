@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/conwe007/Personal-Website.git"
+    "url": "git+https://github.com/conwe007/John-Conwell.git"
   },
   "author": "John Conwell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/conwe007/Personal-Website/issues"
+    "url": "https://github.com/conwe007/John-Conwell/issues"
   },
-  "homepage": "https://github.com/conwe007/Personal-Website#readme",
+  "homepage": "https://github.com/conwe007/John-Conwell#readme",
   "dependencies": {
     "body-parser": "*",
     "ejs": "*",
